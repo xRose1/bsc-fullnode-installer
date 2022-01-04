@@ -34,7 +34,7 @@ chmod +x /home/geth/start.sh
 # Download the latest mainnet config.
 echo "Downloading the latest BSC mainnet config..."
 wget -O /home/geth/mainnet.zip https://github.com/binance-chain/bsc/releases/latest/download/mainnet.zip
-unzip mainnet.zip
+unzip /home/geth/mainnet.zip
 
 # Initialize the geth. 
 echo "Initializing the geth..."
